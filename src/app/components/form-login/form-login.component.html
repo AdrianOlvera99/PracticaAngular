@@ -1,0 +1,12 @@
+<div class="container-form">
+    <h2 class="title">Login</h2>
+    <form #loginForm="ngForm" (ngSubmit)="login()">
+        <mat-form-field>
+            <input matInput placeholder="Usuario" name="username" [(ngModel)]="username" required>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput type="password" placeholder="Contraseña" name="password" [(ngModel)]="password" required>
+        </mat-form-field>
+        <button mat-raised-button color="primary" type="submit">Iniciar sesión</button>
+    </form>
+</div>

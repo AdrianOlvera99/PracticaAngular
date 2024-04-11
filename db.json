@@ -1,0 +1,54 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "name": "John Doe",
+            "email": "johndoe@email.com",
+            "phone": "1122334455",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5XahPWZKhNvKmmYWZnMaOpqCZOnjtNaCvMfwgaxYk2g&s",
+            "username": "johndoe",
+            "password": "johndoe1",
+            "role": "user"
+        },
+        {
+            "id": "2",
+            "name": "Jane Smith",
+            "email": "janesmith@email.com",
+            "phone": "2233445566",
+            "image": "https://static.vecteezy.com/system/resources/previews/020/911/897/non_2x/user-profile-icon-profile-avatar-user-icon-male-icon-face-icon-profile-icon-free-png.png",
+            "username": "janesmith",
+            "password": "janesmith1",
+            "role": "admin"
+        },
+        {
+            "id": "3",
+            "name": "Michael Johnson",
+            "email": "michaeljohnson@email.com",
+            "phone": "3344556677",
+            "image": "https://static.vecteezy.com/system/resources/thumbnails/019/879/186/small/user-icon-on-transparent-background-free-png.png",
+            "username": "michaeljohnson",
+            "password": "hashed_password_here",
+            "role": "user"
+        },
+        {
+            "id": "4",
+            "name": "Emily Brown",
+            "email": "emilybrown@email.com",
+            "phone": "4455667788",
+            "image": "https://png.pngtree.com/png-clipart/20190516/original/pngtree-users-vector-icon-png-image_3725294.jpg",
+            "username": "emilybrown",
+            "password": "hashed_password_here",
+            "role": "user"
+        },
+        {
+            "id": "5",
+            "name": "David Wilson",
+            "email": "davidwilson@email.com",
+            "phone": "5566778899",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/1024px-User_icon_2.svg.png",
+            "username": "davidwilson",
+            "password": "hashed_password_here",
+            "role": "user"
+        }
+    ]
+}
