@@ -8,7 +8,21 @@
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5XahPWZKhNvKmmYWZnMaOpqCZOnjtNaCvMfwgaxYk2g&s",
             "username": "johndoe",
             "password": "johndoe1",
-            "role": "user"
+            "role": "user",
+            "tasks": [
+                {
+                    "id": "1",
+                    "title": "Task 1",
+                    "description": "Description of task 1",
+                    "completed": false
+                },
+                {
+                    "id": "2",
+                    "title": "Task 2",
+                    "description": "Description of task 2",
+                    "completed": true
+                }
+            ]
         },
         {
             "id": "2",
@@ -18,7 +32,21 @@
             "image": "https://static.vecteezy.com/system/resources/previews/020/911/897/non_2x/user-profile-icon-profile-avatar-user-icon-male-icon-face-icon-profile-icon-free-png.png",
             "username": "janesmith",
             "password": "janesmith1",
-            "role": "admin"
+            "role": "admin",
+            "tasks": [
+                {
+                    "id": "1",
+                    "title": "Task 1",
+                    "description": "Description of task 1",
+                    "completed": false
+                },
+                {
+                    "id": "2",
+                    "title": "Task 2",
+                    "description": "Description of task 2",
+                    "completed": true
+                }
+            ]
         },
         {
             "id": "3",
@@ -28,7 +56,21 @@
             "image": "https://static.vecteezy.com/system/resources/thumbnails/019/879/186/small/user-icon-on-transparent-background-free-png.png",
             "username": "michaeljohnson",
             "password": "hashed_password_here",
-            "role": "user"
+            "role": "user",
+            "tasks": [
+                {
+                    "id": "1",
+                    "title": "Task 1",
+                    "description": "Description of task 1",
+                    "completed": false
+                },
+                {
+                    "id": "2",
+                    "title": "Task 2",
+                    "description": "Description of task 2",
+                    "completed": true
+                }
+            ]
         },
         {
             "id": "4",
@@ -38,7 +80,21 @@
             "image": "https://png.pngtree.com/png-clipart/20190516/original/pngtree-users-vector-icon-png-image_3725294.jpg",
             "username": "emilybrown",
             "password": "hashed_password_here",
-            "role": "user"
+            "role": "user",
+            "tasks": [
+                {
+                    "id": "1",
+                    "title": "Task 1",
+                    "description": "Description of task 1",
+                    "completed": false
+                },
+                {
+                    "id": "2",
+                    "title": "Task 2",
+                    "description": "Description of task 2",
+                    "completed": true
+                }
+            ]
         },
         {
             "id": "5",
@@ -48,7 +104,21 @@
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/1024px-User_icon_2.svg.png",
             "username": "davidwilson",
             "password": "hashed_password_here",
-            "role": "user"
+            "role": "user",
+            "tasks": [
+                {
+                    "id": "1",
+                    "title": "Task 1",
+                    "description": "Description of task 1",
+                    "completed": false
+                },
+                {
+                    "id": "2",
+                    "title": "Task 2",
+                    "description": "Description of task 2",
+                    "completed": true
+                }
+            ]
         }
     ]
 }

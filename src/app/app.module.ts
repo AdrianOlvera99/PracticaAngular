@@ -14,12 +14,17 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { HomeComponent } from './components/home/home.component';
+import { TodoappComponent } from './components/todoapp/todoapp.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { ConfirmationDialogComponent } from './components/confirmation-dialog/confirmation-dialog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormLoginComponent,
     HomeComponent,
+    TodoappComponent,
+    ConfirmationDialogComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,7 +36,8 @@ import { HomeComponent } from './components/home/home.component';
     HttpClientModule,
     MatSnackBarModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

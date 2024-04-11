@@ -24,9 +24,9 @@ export class FormLoginComponent implements OnInit {
     this.userService.login(this.username, this.password).subscribe(
       (isValid) => {
         if (isValid) {
-          const token = 'mockToken123'; // Genera un token real o utiliza el que obtienes del servidor
+          const token = 'mockToken123'; // Genera un token 
           this.userService.setToken(token);
-          this.router.navigate(['/home']); // Redirige al Dashboard después del inicio de sesión
+          this.router.navigate(['/home']); // Redirige al Home
         } else {
           this.snackBar.open('Credenciales inválidas', 'Cerrar', {
             duration: 5000,
